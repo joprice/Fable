@@ -42,3 +42,14 @@ let CounterJSX(init: int) =
             </button>
         </div>
         """
+
+open Feliz.JSX.React
+
+[<JSX.Component>]
+let classTest () =
+    Html.div [
+      //prop.className
+      // Attr.className
+      Attr.className
+        "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+    ]
